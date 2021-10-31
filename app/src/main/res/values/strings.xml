@@ -6,10 +6,12 @@
     <!-- Napisy na przyciskach -->
     <string name="button_shuffle">Shuffle</string>
     <string name="button_clockwise">Clockwise</string>
-    <string name="button_hide">Hide</string>
-    <string name="button_restore">Restore</string>
+    <string name="button_hide_restore">Hide/Restore</string>
+    <string name="button_anticlockwise">Anticlockwise</string>
     <string name="button_increase">+1</string>
     <string name="button_decrease">-1</string>
+    <string name="button_multiplying">*2</string>
+    <string name="button_division">:2</string>
 
     <!-- Wartość poczatkowa -->
     <string name="zero">0</string>

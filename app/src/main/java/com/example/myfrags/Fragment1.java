@@ -15,8 +15,8 @@ public class Fragment1 extends Fragment {
     public interface OnButtonClickListener {
         public void onButtonClickShuffle();
         public void onButtonClickClockwise();
-        public void onButtonClickHide();
-        public void onButtonClickRestore();
+        public void onButtonClickHideRestore();
+        public void onButtonClickAnticlockwise();
     }
 
     private OnButtonClickListener callback = null;
@@ -39,8 +39,8 @@ public class Fragment1 extends Fragment {
 
         Button buttonShuffle = (Button) view.findViewById(R.id.button_shuffle);
         Button buttonClockwise = (Button) view.findViewById(R.id.button_clockwise);
-        Button buttonHide = (Button) view.findViewById(R.id.button_hide);
-        Button buttonRestore = (Button) view.findViewById(R.id.button_restore);
+        Button buttonHideRestore = (Button) view.findViewById(R.id.button_hide_restore);
+        Button buttonAnticlockwise = (Button) view.findViewById(R.id.button_anticlockwise);
 
         buttonShuffle.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,17 +56,17 @@ public class Fragment1 extends Fragment {
             }
         });
 
-        buttonHide.setOnClickListener(new View.OnClickListener() {
+        buttonHideRestore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (callback != null) callback.onButtonClickHide();
+                if (callback != null) callback.onButtonClickHideRestore();
             }
         });
 
-        buttonRestore.setOnClickListener(new View.OnClickListener() {
+        buttonAnticlockwise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (callback != null) callback.onButtonClickRestore();
+                if (callback != null) callback.onButtonClickAnticlockwise();
             }
         });
 

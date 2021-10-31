@@ -13,4 +13,6 @@
     <color name="color_frame2">#CCFFCC</color>
     <color name="color_frame3">#CCFFFF</color>
     <color name="color_frame4">#FFCCCC</color>
+    <color name="color_frame5">#CCCCFF</color>
+    <color name="color_frame6">#FFCCFF</color>
 </resources>

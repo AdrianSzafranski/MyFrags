@@ -42,4 +42,22 @@
         android:background="@color/color_frame4">
 
     </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/color_frame5">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/color_frame6">
+
+    </FrameLayout>
 </LinearLayout>
